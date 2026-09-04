@@ -1,4 +1,3 @@
-import Data.Bool (otherwise)
 -- Ejercicio 8. Implementar la funcion comparar :: Integer -> Integer -> Integer
 -- problema comparar (a : Z, b : Z) : Z {
 -- requiere: {True}
