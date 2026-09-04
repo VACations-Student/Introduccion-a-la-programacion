@@ -97,7 +97,7 @@ re_producto_interno a b = fst a * fst b + snd a * snd b
 -- requiere: { TRUE }
 -- asegura:  { res = fst a < fst b && snd a < snd b }
 re_es_par_menor :: Punto2D -> Punto2D -> Bool
-es_par_menor a b = fst a < fst b && snd a < snd b
+re_es_par_menor a b = fst a < fst b && snd a < snd b
 
 -- re_distancia: calcula la distancia euclıdea entre las coordenadas de 2 Punto2D
 -- Especificacion:
@@ -105,4 +105,4 @@ es_par_menor a b = fst a < fst b && snd a < snd b
 -- requiere: { TRUE }
 -- asegura:  { res = sqr((fst b - fst a)**2 + (snd b - snd a)**2 ) }
 re_distancia :: Punto2D -> Punto2D -> Float
-distancia a b = sqrt((fst b - fst a)**2 + (snd b - snd a)**2)
+re_distancia a b = sqrt((fst b - fst a)**2 + (snd b - snd a)**2)
