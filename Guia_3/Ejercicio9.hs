@@ -20,9 +20,4 @@
 -- f)   f6 :: Float -> Int -> Bool
 --      f6 a b = truncate a == b
 
--- a) chupame bien la pija
--- b) chupame bien la pija
--- c) chupame bien la pija
--- d) chupame bien la pija
--- e) chupame bien la pija
--- f) chupame bien la pija
+-- a) 
